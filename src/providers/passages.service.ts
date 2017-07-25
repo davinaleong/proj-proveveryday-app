@@ -41,6 +41,10 @@ export class PassagesService {
         console.log('selectedChapterNo ', theSelectedChapterNo);
         this._selectedChapterNo = theSelectedChapterNo;
     }
+    private _selectedChapter: Chapter = null;
+    get selectedChapter(): Chapter {
+        return this._selectedChapter;
+    }
 
     // === Functions ===================================================================
     constructor() {
@@ -95,6 +99,17 @@ export class PassagesService {
             return chapterNo == chapterEl.chapterNo;
         });
         return chapter.versePassages;
+    }
+
+    // --- Other Functions -------------------------------------------------------------
+    gotoPreviousChapter() {
+        this._selectedChapterNo -= 1;
+        this._selectedChapter = this.findChapter(this._selectedTranslationId, this._selectedChapterNo);
+    }
+
+    gotoNextChapter() {
+        this._selectedChapterNo += 1;
+        this._selectedChapter = this.findChapter(this._selectedTranslationId, this._selectedChapterNo);
     }
 
 } //end PassagesService class

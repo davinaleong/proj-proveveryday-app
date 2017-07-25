@@ -30,6 +30,10 @@ export class PassageGrid {
     console.log('ionViewDidLoad PassageGrid');
   }
 
+  ionViewDidEnter() {
+    this.reloadContent();
+  }
+
   previousChapterNo() {
     --this._passagesService.selectedChapterNo;
     this.reloadContent();

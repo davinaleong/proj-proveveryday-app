@@ -28,6 +28,10 @@ export class PassageParagraph {
     console.log('ionViewDidLoad PassageParagraph');
   }
 
+  ionViewDidEnter() {
+    this._selectedChapter = this._passagesService.getSelectedChapter();
+  }
+
   previousChapterNo() {
     --this._passagesService.selectedChapterNo;
     this._selectedChapter = this._passagesService.getSelectedChapter();
