@@ -16,9 +16,9 @@ import { IonicModule } from 'ionic-angular'
 export class MenuItemModel {
 
     constructor(
-        public pageName:string,
-        public displayText:string,
-        public iconName:string
+        public pageName: string,
+        public displayText: string,
+        public iconName: string
     ) {}
 
 } //end MenuItemModel class

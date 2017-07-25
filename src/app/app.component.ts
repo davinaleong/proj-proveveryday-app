@@ -1,10 +1,13 @@
 import { Component, ViewChild } from '@angular/core';
-import { Nav, Platform } from 'ionic-angular';
+import {
+  Nav,
+  Platform,
+  MenuController } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
-import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
+import { PassagesService } from '../providers/passages.service';
+import { MenuItemModel } from '../models/menu-item.model';
 
 @Component({
   templateUrl: 'app.html'
@@ -12,17 +15,22 @@ import { ListPage } from '../pages/list/list';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = HomePage;
+  rootPage: string = 'Tabs';
 
-  pages: Array<{title: string, component: any}>;
+  menuItems: MenuItemModel[] = null;
 
-  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
+  constructor(
+    public platform: Platform,
+    public statusBar: StatusBar,
+    public splashScreen: SplashScreen,
+    private _passagesService: PassagesService,
+    private _menuCtrl: MenuController) {
     this.initializeApp();
 
     // used for an example of ngFor and navigation
-    this.pages = [
-      { title: 'Home', component: HomePage },
-      { title: 'List', component: ListPage }
+    this.menuItems = [
+      new MenuItemModel('SelectTranslation', 'Bible Translations', 'book'),
+      new MenuItemModel('Settings', 'Settings', 'settings')
     ];
 
   }
@@ -34,11 +42,25 @@ export class MyApp {
       this.statusBar.styleDefault();
       this.splashScreen.hide();
     });
+
+    this.selectTodaysChapter();
   }
 
-  openPage(page) {
+  openPage(pageName: string) {
     // Reset the content nav to have just this page
     // we wouldn't want the back button to show in this scenario
-    this.nav.setRoot(page.component);
+    this.nav.setRoot(pageName);
+    this._menuCtrl.close();
   }
-}
+
+  todaysChapterHandler() {
+    this.selectTodaysChapter();
+    this.nav.setRoot('Tabs');
+  }
+
+  private selectTodaysChapter() {
+    let today = new Date();
+    this._passagesService.selectedChapterNo = today.getDate();
+  }
+
+} //end MyApp class

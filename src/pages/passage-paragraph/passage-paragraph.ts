@@ -4,8 +4,8 @@ import { IonicPage,
   NavParams } from 'ionic-angular';
 
 import { PassagesService } from '../../providers/passages.service';
-import { Translation } from '../../data/translation.interface';
-import { Chapter } from '../../data/chapter.interface';
+import { Translation } from '../../interfaces/translation.interface';
+import { Chapter } from '../../interfaces/chapter.interface';
 
 @IonicPage()
 @Component({

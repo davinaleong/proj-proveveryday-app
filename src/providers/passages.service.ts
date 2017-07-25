@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
-import { Translation } from '../data/translation.interface';
-import { Chapter } from '../data/chapter.interface';
-import { Verse } from '../data/verse.interface';
+import { Translation } from '../interfaces/translation.interface';
+import { Chapter } from '../interfaces/chapter.interface';
+import { Verse } from '../interfaces/verse.interface';
 
 import passages from '../data/passages';
 

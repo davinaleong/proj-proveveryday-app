@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
-import { Translation } from '../../data/translation.interface';
-import { Chapter } from '../../data/chapter.interface';
+import { Translation } from '../../interfaces/translation.interface';
+import { Chapter } from '../../interfaces/chapter.interface';
 import { PassagesService } from '../../providers/passages.service';
 
 @IonicPage()
