@@ -10,7 +10,7 @@
                 <ion-icon name="quote" item-left></ion-icon>
                 Today's Proverb
             </button>
-            <button *ngFor="let menuItem of menuItems; let i = index" ion-item menuClose (click)="gotoPage(menuItem.pageName)">
+            <button *ngFor="let menuItem of menuItems; let i = index" ion-item menuClose (click)="openPage(menuItem.pageName)">
                 <ion-icon
                         name="{{ menuItem.iconName }}"
                         item-left></ion-icon>
