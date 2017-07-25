@@ -1,0 +1,21 @@
+<ion-header>
+
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>
+            <ion-icon name="book" item-left></ion-icon>&nbsp; Bible Translations
+        </ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content no-padding>
+    <ion-list>
+        <button ion-item *ngFor="let translation of translations" (click)="gotoChapter(translation)">
+            {{ translation.name }}
+        </button>
+    </ion-list>
+</ion-content>
