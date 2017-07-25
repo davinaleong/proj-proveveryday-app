@@ -11,3 +11,12 @@ Enable lazy loading:
 
 2) Angular RangeError Fix:
 Ensure that resources are only loaded once in a module. E.g. If loaded in the .ts file, don't load the resource in the module.ts file.
+
+
+
+Settings Page:
+- Theme: Switch, Light / Dark or Notebook / Screen
+- Font Sizes: Dropdown, Small / Medium / Large
+- Font Type: Switch, Sans-Serif / Serif
+- Starting View: Switch, Paragraph / Grid
+- Starting Translation: Dropdown, <Load Translations>
