@@ -2863,12 +2863,260 @@ export default [
 				chapterNo: 24,
 				chapterPassage: "<p>24&nbsp;Be not thou envious against evil men, neither desire to be with them.<\/p>\r\n\r\n<p><sup>2&nbsp;<\/sup>For their heart studieth destruction, and their lips talk of mischief.<\/p>\r\n\r\n<p><sup>3&nbsp;<\/sup>Through wisdom is an house builded; and by understanding it is established:<\/p>\r\n\r\n<p><sup>4&nbsp;<\/sup>And by knowledge shall the chambers be filled with all precious and pleasant riches.<\/p>\r\n\r\n<p><sup>5&nbsp;<\/sup>A wise man is strong; yea, a man of knowledge increaseth strength.<\/p>\r\n\r\n<p><sup>6&nbsp;<\/sup>For by wise counsel thou shalt make thy war: and in multitude of counsellors there is safety.<\/p>\r\n\r\n<p><sup>7&nbsp;<\/sup>Wisdom is too high for a fool: he openeth not his mouth in the gate.<\/p>\r\n\r\n<p><sup>8&nbsp;<\/sup>He that deviseth to do evil shall be called a mischievous person.<\/p>\r\n\r\n<p><sup>9&nbsp;<\/sup>The thought of foolishness is sin: and the scorner is an abomination to men.<\/p>\r\n\r\n<p><sup>10&nbsp;<\/sup>If thou faint in the day of adversity, thy strength is small.<\/p>\r\n\r\n<p><sup>11&nbsp;<\/sup>If thou forbear to deliver them that are drawn unto death, and those that are ready to be slain;<\/p>\r\n\r\n<p><sup>12&nbsp;<\/sup>If thou sayest, Behold, we knew it not; doth not he that pondereth the heart consider it? and he that keepeth thy soul, doth not he know it? and shall not he render to every man according to his works?<\/p>\r\n\r\n<p><sup>13&nbsp;<\/sup>My son, eat thou honey, because it is good; and the honeycomb, which is sweet to thy taste:<\/p>\r\n\r\n<p><sup>14&nbsp;<\/sup>So shall the knowledge of wisdom be unto thy soul: when thou hast found it, then there shall be a reward, and thy expectation shall not be cut off.<\/p>\r\n\r\n<p><sup>15&nbsp;<\/sup>Lay not wait, O wicked man, against the dwelling of the righteous; spoil not his resting place:<\/p>\r\n\r\n<p><sup>16&nbsp;<\/sup>For a just man falleth seven times, and riseth up again: but the wicked shall fall into mischief.<\/p>\r\n\r\n<p><sup>17&nbsp;<\/sup>Rejoice not when thine enemy falleth, and let not thine heart be glad when he stumbleth:<\/p>\r\n\r\n<p><sup>18&nbsp;<\/sup>Lest the&nbsp;Lord&nbsp;see it, and it displease him, and he turn away his wrath from him.<\/p>\r\n\r\n<p><sup>19&nbsp;<\/sup>Fret not thyself because of evil men, neither be thou envious at the wicked:<\/p>\r\n\r\n<p><sup>20&nbsp;<\/sup>For there shall be no reward to the evil man; the candle of the wicked shall be put out.<\/p>\r\n\r\n<p><sup>21&nbsp;<\/sup>My son, fear thou the&nbsp;Lord&nbsp;and the king: and meddle not with them that are given to change:<\/p>\r\n\r\n<p><sup>22&nbsp;<\/sup>For their calamity shall rise suddenly; and who knoweth the ruin of them both?<\/p>\r\n\r\n<p><sup>23&nbsp;<\/sup>These things also belong to the wise. It is not good to have respect of persons in judgment.<\/p>\r\n\r\n<p><sup>24&nbsp;<\/sup>He that saith unto the wicked, Thou are righteous; him shall the people curse, nations shall abhor him:<\/p>\r\n\r\n<p><sup>25&nbsp;<\/sup>But to them that rebuke him shall be delight, and a good blessing shall come upon them.<\/p>\r\n\r\n<p><sup>26&nbsp;<\/sup>Every man shall kiss his lips that giveth a right answer.<\/p>\r\n\r\n<p><sup>27&nbsp;<\/sup>Prepare thy work without, and make it fit for thyself in the field; and afterwards build thine house.<\/p>\r\n\r\n<p><sup>28&nbsp;<\/sup>Be not a witness against thy neighbour without cause; and deceive not with thy lips.<\/p>\r\n\r\n<p><sup>29&nbsp;<\/sup>Say not, I will do so to him as he hath done to me: I will render to the man according to his work.<\/p>\r\n\r\n<p><sup>30&nbsp;<\/sup>I went by the field of the slothful, and by the vineyard of the man void of understanding;<\/p>\r\n\r\n<p><sup>31&nbsp;<\/sup>And, lo, it was all grown over with thorns, and nettles had covered the face thereof, and the stone wall thereof was broken down.<\/p>\r\n\r\n<p><sup>32&nbsp;<\/sup>Then I saw, and considered it well: I looked upon it, and received instruction.<\/p>\r\n\r\n<p><sup>33&nbsp;<\/sup>Yet a little sleep, a little slumber, a little folding of the hands to sleep:<\/p>\r\n\r\n<p><sup>34&nbsp;<\/sup>So shall thy poverty come as one that travelleth; and thy want as an armed man.<\/p>",
 				versePassages: [
+					{
+						verseNo: 1,
+						versePassage: "Be not thou envious against evil men, neither desire to be with them."
+					},
+					{
+						verseNo: 2,
+						versePassage: "For their heart studieth destruction, and their lips talk of mischief."
+					},
+					{
+						verseNo: 3,
+						versePassage: "Through wisdom is an house builded; and by understanding it is established:"
+					},
+					{
+						verseNo: 4,
+						versePassage: "And by knowledge shall the chambers be filled with all precious and pleasant riches."
+					},
+					{
+						verseNo: 5,
+						versePassage: "A wise man is strong; yea, a man of knowledge increaseth strength."
+					},
+					{
+						verseNo: 6,
+						versePassage: "For by wise counsel thou shalt make thy war: and in multitude of counsellors there is safety."
+					},
+					{
+						verseNo: 7,
+						versePassage: "Wisdom is too high for a fool: he openeth not his mouth in the gate."
+					},
+					{
+						verseNo: 8,
+						versePassage: "He that deviseth to do evil shall be called a mischievous person."
+					},
+					{
+						verseNo: 9,
+						versePassage: "The thought of foolishness is sin: and the scorner is an abomination to men."
+					},
+					{
+						verseNo: 10,
+						versePassage: "If thou faint in the day of adversity, thy strength is small."
+					},
+					{
+						verseNo: 11,
+						versePassage: "If thou forbear to deliver them that are drawn unto death, and those that are ready to be slain;"
+					},
+					{
+						verseNo: 12,
+						versePassage: "If thou sayest, Behold, we knew it not; doth not he that pondereth the heart consider it? and he that keepeth thy soul, doth not he know it? and shall not he render to every man according to his works?"
+					},
+					{
+						verseNo: 13,
+						versePassage: "My son, eat thou honey, because it is good; and the honeycomb, which is sweet to thy taste:"
+					},
+					{
+						verseNo: 14,
+						versePassage: "So shall the knowledge of wisdom be unto thy soul: when thou hast found it, then there shall be a reward, and thy expectation shall not be cut off."
+					},
+					{
+						verseNo: 15,
+						versePassage: "Lay not wait, O wicked man, against the dwelling of the righteous; spoil not his resting place:"
+					},
+					{
+						verseNo: 16,
+						versePassage: "For a just man falleth seven times, and riseth up again: but the wicked shall fall into mischief."
+					},
+					{
+						verseNo: 17,
+						versePassage: "Rejoice not when thine enemy falleth, and let not thine heart be glad when he stumbleth:"
+					},
+					{
+						verseNo: 18,
+						versePassage: "Lest the Lord see it, and it displease him, and he turn away his wrath from him."
+					},
+					{
+						verseNo: 19,
+						versePassage: "Fret not thyself because of evil men, neither be thou envious at the wicked:"
+					},
+					{
+						verseNo: 20,
+						versePassage: "For there shall be no reward to the evil man; the candle of the wicked shall be put out."
+					},
+					{
+						verseNo: 21,
+						versePassage: "My son, fear thou the Lord and the king: and meddle not with them that are given to change:"
+					},
+					{
+						verseNo: 22,
+						versePassage: "For their calamity shall rise suddenly; and who knoweth the ruin of them both?"
+					},
+					{
+						verseNo: 23,
+						versePassage: "These things also belong to the wise. It is not good to have respect of persons in judgment."
+					},
+					{
+						verseNo: 24,
+						versePassage: "He that saith unto the wicked, Thou are righteous; him shall the people curse, nations shall abhor him:"
+					},
+					{
+						verseNo: 25,
+						versePassage: "But to them that rebuke him shall be delight, and a good blessing shall come upon them."
+					},
+					{
+						verseNo: 26,
+						versePassage: "Every man shall kiss his lips that giveth a right answer."
+					},
+					{
+						verseNo: 27,
+						versePassage: "Prepare thy work without, and make it fit for thyself in the field; and afterwards build thine house."
+					},
+					{
+						verseNo: 28,
+						versePassage: "Be not a witness against thy neighbour without cause; and deceive not with thy lips."
+					},
+					{
+						verseNo: 29,
+						versePassage: "Say not, I will do so to him as he hath done to me: I will render to the man according to his work."
+					},
+					{
+						verseNo: 30,
+						versePassage: "I went by the field of the slothful, and by the vineyard of the man void of understanding;"
+					},
+					{
+						verseNo: 31,
+						versePassage: "And, lo, it was all grown over with thorns, and nettles had covered the face thereof, and the stone wall thereof was broken down."
+					},
+					{
+						verseNo: 32,
+						versePassage: "Then I saw, and considered it well: I looked upon it, and received instruction."
+					},
+					{
+						verseNo: 33,
+						versePassage: "Yet a little sleep, a little slumber, a little folding of the hands to sleep:"
+					},
+					{
+						verseNo: 34,
+						versePassage: "So shall thy poverty come as one that travelleth; and thy want as an armed man."
+					}
 				]
 			},
 			{
 				chapterNo: 25,
 				chapterPassage: "<p>25&nbsp;These are also proverbs of Solomon, which the men of Hezekiah king of Judah copied out.<\/p>\r\n\r\n<p><sup>2&nbsp;<\/sup>It is the glory of God to conceal a thing: but the honour of kings is to search out a matter.<\/p>\r\n\r\n<p><sup>3&nbsp;<\/sup>The heaven for height, and the earth for depth, and the heart of kings is unsearchable.<\/p>\r\n\r\n<p><sup>4&nbsp;<\/sup>Take away the dross from the silver, and there shall come forth a vessel for the finer.<\/p>\r\n\r\n<p><sup>5&nbsp;<\/sup>Take away the wicked from before the king, and his throne shall be established in righteousness.<\/p>\r\n\r\n<p><sup>6&nbsp;<\/sup>Put not forth thyself in the presence of the king, and stand not in the place of great men:<\/p>\r\n\r\n<p><sup>7&nbsp;<\/sup>For better it is that it be said unto thee, Come up hither; than that thou shouldest be put lower in the presence of the prince whom thine eyes have seen.<\/p>\r\n\r\n<p><sup>8&nbsp;<\/sup>Go not forth hastily to strive, lest thou know not what to do in the end thereof, when thy neighbour hath put thee to shame.<\/p>\r\n\r\n<p><sup>9&nbsp;<\/sup>Debate thy cause with thy neighbour himself; and discover not a secret to another:<\/p>\r\n\r\n<p><sup>10&nbsp;<\/sup>Lest he that heareth it put thee to shame, and thine infamy turn not away.<\/p>\r\n\r\n<p><sup>11&nbsp;<\/sup>A word fitly spoken is like apples of gold in pictures of silver.<\/p>\r\n\r\n<p><sup>12&nbsp;<\/sup>As an earring of gold, and an ornament of fine gold, so is a wise reprover upon an obedient ear.<\/p>\r\n\r\n<p><sup>13&nbsp;<\/sup>As the cold of snow in the time of harvest, so is a faithful messenger to them that send him: for he refresheth the soul of his masters.<\/p>\r\n\r\n<p><sup>14&nbsp;<\/sup>Whoso boasteth himself of a false gift is like clouds and wind without rain.<\/p>\r\n\r\n<p><sup>15&nbsp;<\/sup>By long forbearing is a prince persuaded, and a soft tongue breaketh the bone.<\/p>\r\n\r\n<p><sup>16&nbsp;<\/sup>Hast thou found honey? eat so much as is sufficient for thee, lest thou be filled therewith, and vomit it.<\/p>\r\n\r\n<p><sup>17&nbsp;<\/sup>Withdraw thy foot from thy neighbour&#39;s house; lest he be weary of thee, and so hate thee.<\/p>\r\n\r\n<p><sup>18&nbsp;<\/sup>A man that beareth false witness against his neighbour is a maul, and a sword, and a sharp arrow.<\/p>\r\n\r\n<p><sup>19&nbsp;<\/sup>Confidence in an unfaithful man in time of trouble is like a broken tooth, and a foot out of joint.<\/p>\r\n\r\n<p><sup>20&nbsp;<\/sup>As he that taketh away a garment in cold weather, and as vinegar upon nitre, so is he that singeth songs to an heavy heart.<\/p>\r\n\r\n<p><sup>21&nbsp;<\/sup>If thine enemy be hungry, give him bread to eat; and if he be thirsty, give him water to drink:<\/p>\r\n\r\n<p><sup>22&nbsp;<\/sup>For thou shalt heap coals of fire upon his head, and the&nbsp;Lord&nbsp;shall reward thee.<\/p>\r\n\r\n<p><sup>23&nbsp;<\/sup>The north wind driveth away rain: so doth an angry countenance a backbiting tongue.<\/p>\r\n\r\n<p><sup>24&nbsp;<\/sup>It is better to dwell in the corner of the housetop, than with a brawling woman and in a wide house.<\/p>\r\n\r\n<p><sup>25&nbsp;<\/sup>As cold waters to a thirsty soul, so is good news from a far country.<\/p>\r\n\r\n<p><sup>26&nbsp;<\/sup>A righteous man falling down before the wicked is as a troubled fountain, and a corrupt spring.<\/p>\r\n\r\n<p><sup>27&nbsp;<\/sup>It is not good to eat much honey: so for men to search their own glory is not glory.<\/p>\r\n\r\n<p><sup>28&nbsp;<\/sup>He that hath no rule over his own spirit is like a city that is broken down, and without walls.<\/p>",
 				versePassages: [
+					{
+						verseNo: 1,
+						versePassage: "These are also proverbs of Solomon, which the men of Hezekiah king of Judah copied out."
+					},
+					{
+						verseNo: 2,
+						versePassage: "It is the glory of God to conceal a thing: but the honour of kings is to search out a matter."
+					},
+					{
+						verseNo: 3,
+						versePassage: "The heaven for height, and the earth for depth, and the heart of kings is unsearchable."
+					},
+					{
+						verseNo: 4,
+						versePassage: "Take away the dross from the silver, and there shall come forth a vessel for the finer."
+					},
+					{
+						verseNo: 5,
+						versePassage: "Take away the wicked from before the king, and his throne shall be established in righteousness."
+					},
+					{
+						verseNo: 6,
+						versePassage: "Put not forth thyself in the presence of the king, and stand not in the place of great men:"
+					},
+					{
+						verseNo: 7,
+						versePassage: "For better it is that it be said unto thee, Come up hither; than that thou shouldest be put lower in the presence of the prince whom thine eyes have seen."
+					},
+					{
+						verseNo: 8,
+						versePassage: "Go not forth hastily to strive, lest thou know not what to do in the end thereof, when thy neighbour hath put thee to shame."
+					},
+					{
+						verseNo: 9,
+						versePassage: "Debate thy cause with thy neighbour himself; and discover not a secret to another:"
+					},
+					{
+						verseNo: 10,
+						versePassage: "Lest he that heareth it put thee to shame, and thine infamy turn not away."
+					},
+					{
+						verseNo: 11,
+						versePassage: "A word fitly spoken is like apples of gold in pictures of silver."
+					},
+					{
+						verseNo: 12,
+						versePassage: "As an earring of gold, and an ornament of fine gold, so is a wise reprover upon an obedient ear."
+					},
+					{
+						verseNo: 13,
+						versePassage: "As the cold of snow in the time of harvest, so is a faithful messenger to them that send him: for he refresheth the soul of his masters."
+					},
+					{
+						verseNo: 14,
+						versePassage: "Whoso boasteth himself of a false gift is like clouds and wind without rain."
+					},
+					{
+						verseNo: 15,
+						versePassage: "By long forbearing is a prince persuaded, and a soft tongue breaketh the bone."
+					},
+					{
+						verseNo: 16,
+						versePassage: "Hast thou found honey? eat so much as is sufficient for thee, lest thou be filled therewith, and vomit it."
+					},
+					{
+						verseNo: 17,
+						versePassage: "Withdraw thy foot from thy neighbour's house; lest he be weary of thee, and so hate thee."
+					},
+					{
+						verseNo: 18,
+						versePassage: "A man that beareth false witness against his neighbour is a maul, and a sword, and a sharp arrow."
+					},
+					{
+						verseNo: 19,
+						versePassage: "Confidence in an unfaithful man in time of trouble is like a broken tooth, and a foot out of joint."
+					},
+					{
+						verseNo: 20,
+						versePassage: "As he that taketh away a garment in cold weather, and as vinegar upon nitre, so is he that singeth songs to an heavy heart."
+					},
+					{
+						verseNo: 21,
+						versePassage: "If thine enemy be hungry, give him bread to eat; and if he be thirsty, give him water to drink:"
+					},
+					{
+						verseNo: 22,
+						versePassage: "For thou shalt heap coals of fire upon his head, and the Lord shall reward thee."
+					},
+					{
+						verseNo: 23,
+						versePassage: "The north wind driveth away rain: so doth an angry countenance a backbiting tongue."
+					},
+					{
+						verseNo: 24,
+						versePassage: "It is better to dwell in the corner of the housetop, than with a brawling woman and in a wide house."
+					},
+					{
+						verseNo: 25,
+						versePassage: "As cold waters to a thirsty soul, so is good news from a far country."
+					},
+					{
+						verseNo: 26,
+						versePassage: "A righteous man falling down before the wicked is as a troubled fountain, and a corrupt spring."
+					},
+					{
+						verseNo: 27,
+						versePassage: "It is not good to eat much honey: so for men to search their own glory is not glory."
+					},
+					{
+						verseNo: 28,
+						versePassage: "He that hath no rule over his own spirit is like a city that is broken down, and without walls."
+					}
 				]
 			},
 			{
@@ -4095,7 +4343,7 @@ export default [
 			},
 			{
 				chapterNo: 6,
-				chapterPassage: "<p><strong>6 <\/strong>My son! if thou hast been surety for thy friend, Hast stricken for a stranger thy hand,<\/p>\r\n<p><sup>2 <\/sup>Hast been snared with sayings of thy mouth, Hast been captured with sayings of thy mouth,<\/p>\r\n<p><sup>3 <\/sup>Do this now, my son, and be delivered, For thou hast come into the hand of thy friend. Go, trample on thyself, and strengthen thy<\/p> friend,\r\n<p><sup>4 <\/sup>Give not sleep to thine eyes, And slumber to thine eyelids,<\/p>\r\n<p><sup>5 <\/sup>Be delivered as a roe from the hand, And as a bird from the hand of a fowler.<\/p>\r\n<p><sup>6 <\/sup>Go unto the ant, O slothful one, See her ways and be wise;<\/p>\r\n<p><sup>7 <\/sup>Which hath not captain, overseer, and ruler,<\/p>\r\n<p><sup>8 <\/sup>She doth prepare in summer her bread, She hath gathered in harvest her food.<\/p>\r\n<p><sup>9 <\/sup>Till when, O slothful one, dost thou lie? When dost thou arise from thy sleep?<\/p>\r\n<p><sup>10 <\/sup>A little sleep, a little slumber, A little clasping of the hands to rest,<\/p>\r\n<p><sup>11 <\/sup>And thy poverty hath come as a traveller, And thy want as an armed man.<\/p>\r\n<p><sup>12 <\/sup>A man of worthlessness, a man of iniquity, Walking [with] perverseness of mouth,<\/p>\r\n<p><sup>13 <\/sup>Winking with his eyes, speaking with his feet, Directing with his fingers,<\/p>\r\n<p><sup>14 <\/sup>Frowardness [is] in his heart, devising evil at all times, Contentions he sendeth forth.<\/p>\r\n<p><sup>15 <\/sup>Therefore suddenly cometh his calamity, Instantly he is broken -- and no healing.<\/p>\r\n<p><sup>16 <\/sup>These six hath Jehovah hated, Yea, seven [are] abominations to His soul.<\/p>\r\n<p><sup>17 <\/sup>Eyes high -- tongues false -- And hands shedding innocent blood --<\/p>\r\n<p><sup>18 <\/sup>A heart devising thoughts of vanity -- Feet hasting to run to evil --<\/p>\r\n<p><sup>19 <\/sup>A false witness [who] doth breathe out lies -- And one sending forth contentions between brethren.<\/p>\r\n<p><sup>20 <\/sup>Keep, my son, the command of thy father, And leave not the law of thy mother.<\/p>\r\n<p><sup>21 <\/sup>Bind them on thy heart continually, Tie them on thy neck.<\/p>\r\n<p><sup>22 <\/sup>In thy going up and down, it leadeth thee, In thy lying down, it watcheth over thee, And thou hast awaked -- it talketh [with] thee.<\/p>\r\n<p><sup>23 <\/sup>For a lamp [is] the command, And the law a light, And a way of life [are] reproofs of instruction,<\/p>\r\n<p><sup>24 <\/sup>To preserve thee from an evil woman, From the flattery of the tongue of a strange woman.<\/p>\r\n<p><sup>25 <\/sup>Desire not her beauty in thy heart, And let her not take thee with her eyelids.<\/p>\r\n<p><sup>26 <\/sup>For a harlot consumeth unto a cake of bread, And an adulteress the precious soul hunteth.<\/p>\r\n<p><sup>27 <\/sup>Doth a man take fire into his bosom, And are his garments not burnt?<\/p>\r\n<p><sup>28 <\/sup>Doth a man walk on the hot coals, And are his feet not scorched?<\/p>\r\n<p><sup>29 <\/sup>So [is] he who hath gone in unto the wife of his neighbour, None who doth touch her is innocent.<\/p>\r\n<p><sup>30 <\/sup>They do not despise the thief, When he stealeth to fill his soul when he is hungry,<\/p>\r\n<p><sup>31 <\/sup>And being found he repayeth sevenfold, All the substance of his house he giveth.<\/p>\r\n<p><sup>32 <\/sup>He who committeth adultery [with] a woman lacketh heart, He is destroying his soul who doth it.<\/p>\r\n<p><sup>33 <\/sup>A stroke and shame he doth find, And his reproach is not wiped away,<\/p>\r\n<p><sup>34 <\/sup>For jealousy [is] the fury of a man, And he doth not spare in a day of vengeance.<\/p>\r\n<p><sup>35 <\/sup>He accepteth not the appearance of any atonement, Yea, he doth not consent, Though thou dost multiply bribes!",
+				chapterPassage: "<p><strong>6 <\/strong>My son! if thou hast been surety for thy friend, Hast stricken for a stranger thy hand,<\/p>\r\n<p><sup>2 <\/sup>Hast been snared with sayings of thy mouth, Hast been captured with sayings of thy mouth,<\/p>\r\n<p><sup>3 <\/sup>Do this now, my son, and be delivered, For thou hast come into the hand of thy friend. Go, trample on thyself, and strengthen thy<\/p> friend,\r\n<p><sup>4 <\/sup>Give not sleep to thine eyes, And slumber to thine eyelids,<\/p>\r\n<p><sup>5 <\/sup>Be delivered as a roe from the hand, And as a bird from the hand of a fowler.<\/p>\r\n<p><sup>6 <\/sup>Go unto the ant, O slothful one, See her ways and be wise;<\/p>\r\n<p><sup>7 <\/sup>Which hath not captain, overseer, and ruler,<\/p>\r\n<p><sup>8 <\/sup>She doth prepare in summer her bread, She hath gathered in harvest her food.<\/p>\r\n<p><sup>9 <\/sup>Till when, O slothful one, dost thou lie? When dost thou arise from thy sleep?<\/p>\r\n<p><sup>10 <\/sup>A little sleep, a little slumber, A little clasping of the hands to rest,<\/p>\r\n<p><sup>11 <\/sup>And thy poverty hath come as a traveller, And thy want as an armed man.<\/p>\r\n<p><sup>12 <\/sup>A man of worthlessness, a man of iniquity, Walking [with] perverseness of mouth,<\/p>\r\n<p><sup>13 <\/sup>Winking with his eyes, speaking with his feet, Directing with his fingers,<\/p>\r\n<p><sup>14 <\/sup>Frowardness [is] in his heart, devising evil at all times, Contentions he sendeth forth.<\/p>\r\n<p><sup>15 <\/sup>Therefore suddenly cometh his calamity, Instantly he is broken -- and no healing.<\/p>\r\n<p><sup>16 <\/sup>These six hath Jehovah hated, Yea, seven [are] abominations to His soul.<\/p>\r\n<p><sup>17 <\/sup>Eyes high -- tongues false -- And hands shedding innocent blood --<\/p>\r\n<p><sup>18 <\/sup>A heart devising thoughts of vanity -- Feet hasting to run to evil --<\/p>\r\n<p><sup>19 <\/sup>A false witness [who] doth breathe out lies -- And one sending forth contentions between brethren.<\/p>\r\n<p><sup>20 <\/sup>Keep, my son, the command of thy father, And leave not the law of thy mother.<\/p>\r\n<p><sup>21 <\/sup>Bind them on thy heart continually, Tie them on thy neck.<\/p>\r\n<p><sup>22 <\/sup>In thy going up and down, it leadeth thee, In thy lying down, it watcheth over thee, And thou hast awaked -- it talketh [with] thee.<\/p>\r\n<p><sup>23 <\/sup>For a lamp [is] the command, And the law a light, And a way of life [are] reproofs of instruction,<\/p>\r\n<p><sup>24 <\/sup>To preserve thee from an evil woman, From the flattery of the tongue of a strange woman.<\/p>\r\n<p><sup>25 <\/sup>Desire not her beauty in thy heart, And let her not take thee with her eyelids.<\/p>\r\n<p><sup>26 <\/sup>For a harlot consumeth unto a cake of bread, And an adulteress the precious soul hunteth.<\/p>\r\n<p><sup>27 <\/sup>Doth a man take fire into his bosom, And are his garments not burnt?<\/p>\r\n<p><sup>28 <\/sup>Doth a man walk on the hot coals, And are his feet not scorched?<\/p>\r\n<p><sup>29 <\/sup>So [is] he who hath gone in unto the wife of his neighbour, None who doth touch her is innocent.<\/p>\r\n<p><sup>30 <\/sup>They do not despise the thief, When he stealeth to fill his soul when he is hungry,<\/p>\r\n<p><sup>31 <\/sup>And being found he repayeth sevenfold, All the substance of his house he giveth.<\/p>\r\n<p><sup>32 <\/sup>He who committeth adultery [with] a woman lacketh heart, He is destroying his soul who doth it.<\/p>\r\n<p><sup>33 <\/sup>A stroke and shame he doth find, And his reproach is not wiped away,<\/p>\r\n<p><sup>34 <\/sup>For jealousy [is] the fury of a man, And he doth not spare in a day of vengeance.<\/p>\r\n<p><sup>35 <\/sup>He accepteth not the appearance of any atonement, Yea, he doth not consent, Though thou dost multiply bribes!<p><sup><\/<\/sup>sup><\/p><\/",
 				versePassages: [
 					{
 						verseNo: 1,
