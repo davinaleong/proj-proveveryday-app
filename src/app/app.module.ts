@@ -12,6 +12,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { PassagesService } from '../providers/passages.service';
+import { SettingsService } from '../providers/settings.service';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,7 @@ import { PassagesService } from '../providers/passages.service';
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
-    IonicStorageModule
+    IonicStorageModule.forRoot()
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -30,7 +31,8 @@ import { PassagesService } from '../providers/passages.service';
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    PassagesService
+    PassagesService,
+    SettingsService
   ]
 })
 export class AppModule {}

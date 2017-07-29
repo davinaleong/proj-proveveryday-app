@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+
 import { Translation } from '../interfaces/translation.interface';
 import { Chapter } from '../interfaces/chapter.interface';
 import { Verse } from '../interfaces/verse.interface';

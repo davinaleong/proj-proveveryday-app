@@ -7,6 +7,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { PassagesService } from '../providers/passages.service';
+import { SettingsService } from '../providers/settings.service';
 import { MenuItemModel } from '../models/menu-item.model';
 
 @Component({
@@ -24,6 +25,7 @@ export class MyApp {
     public statusBar: StatusBar,
     public splashScreen: SplashScreen,
     private _passagesService: PassagesService,
+    private _settingsService: SettingsService,
     private _menuCtrl: MenuController) {
     this.initializeApp();
 
@@ -44,6 +46,18 @@ export class MyApp {
     });
 
     this.selectTodaysChapter();
+    this._settingsService.reset();
+    this._settingsService.getSettings()
+    .then(settings => {
+      console.log(settings);
+      if(settings) {
+        console.log('Retrieved settings.');
+      } else {
+        console.log('No stored settings... store default settings.');
+        this._settingsService.reset();
+      }
+    })
+    .catch(error => console.log(error));
   }
 
   openPage(pageName: string) {
