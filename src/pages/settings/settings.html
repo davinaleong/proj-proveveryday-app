@@ -4,12 +4,57 @@
         <button ion-button menuToggle>
             <ion-icon name="menu"></ion-icon>
         </button>
-        <ion-title>Settings</ion-title>
+        <ion-title>
+            <ion-icon name="settings"></ion-icon>
+            Settings
+        </ion-title>
     </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
-    <h1 text-center>Settings Page</h1>
+<ion-content>
+    <ion-list>
+        <ion-item>
+            <ion-label>Theme</ion-label>
+            <ion-select [(ngModel)]="_settings.theme">
+                <ion-option *ngFor="let theme of _settingsService.themes" [value]="theme.toLowerCase()">{{ theme }}</ion-option>
+            </ion-select>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>Preferred Translation</ion-label>
+            <ion-select [(ngModel)]="_settings.translationId">
+                <ion-option *ngFor="let translation of _passages" [value]="translation.id">{{ translation.name }} ({{ translation.abbr }})</ion-option>
+            </ion-select>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>Preferred View</ion-label>
+            <ion-select [(ngModel)]="_settings.view">
+                <ion-option *ngFor="let view of _settingsService.views" [value]="view.toLowerCase()">{{ view }}</ion-option>
+            </ion-select>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>Font Size</ion-label>
+            <ion-select [(ngModel)]="_settings.fontSize">
+                <ion-option *ngFor="let fontSize of _settingsService.fontSizes" [value]="fontSize.toLowerCase()">{{ fontSize }}</ion-option>
+            </ion-select>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>Font Type</ion-label>
+            <ion-select [(ngModel)]="_settings.fontType">
+                <ion-option *ngFor="let fontType of _settingsService.fontTypes" [value]="fontType.toLowerCase()">{{ fontType }}</ion-option>
+            </ion-select>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>Reset to Default</ion-label>
+            <button item-right ion-button round (click)="resetSettingsHandler()">
+                <ion-icon name="undo"></ion-icon>
+            </button>
+        </ion-item>
+    </ion-list>
 </ion-content>
